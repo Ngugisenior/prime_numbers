@@ -1,0 +1,3 @@
+D:/C/prime_numbers/cmake-build-debug/CMakeFiles/prime_numbers.dir
+D:/C/prime_numbers/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/C/prime_numbers/cmake-build-debug/CMakeFiles/rebuild_cache.dir
