@@ -6,7 +6,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "D:/C/prime_numbers/main.c" "D:/C/prime_numbers/cmake-build-debug/CMakeFiles/prime_numbers.dir/main.c.obj"
   "D:/C/prime_numbers/primeNumbers.c" "D:/C/prime_numbers/cmake-build-debug/CMakeFiles/prime_numbers.dir/primeNumbers.c.obj"
-  "D:/C/prime_numbers/user_checks.c" "D:/C/prime_numbers/cmake-build-debug/CMakeFiles/prime_numbers.dir/user_checks.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "MSVC")
 

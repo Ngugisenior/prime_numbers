@@ -88,9 +88,6 @@
 		<Unit filename="D:/C/prime_numbers/primeNumbers.c">
 			<Option target="prime_numbers"/>
 		</Unit>
-		<Unit filename="D:/C/prime_numbers/user_checks.c">
-			<Option target="prime_numbers"/>
-		</Unit>
 		<Unit filename="D:/C/prime_numbers/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

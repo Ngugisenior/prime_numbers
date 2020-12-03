@@ -99,40 +99,19 @@ CMakeFiles\prime_numbers.dir\primeNumbers.c.s: cmake_force
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\prime_numbers.dir\primeNumbers.c.s /c D:\C\prime_numbers\primeNumbers.c
 <<
 
-CMakeFiles\prime_numbers.dir\user_checks.c.obj: CMakeFiles\prime_numbers.dir\flags.make
-CMakeFiles\prime_numbers.dir\user_checks.c.obj: ..\user_checks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C\prime_numbers\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/prime_numbers.dir/user_checks.c.obj"
-	C:\PROGRA~2\MICROS~2\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\prime_numbers.dir\user_checks.c.obj /FdCMakeFiles\prime_numbers.dir\ /FS -c D:\C\prime_numbers\user_checks.c
-<<
-
-CMakeFiles\prime_numbers.dir\user_checks.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/prime_numbers.dir/user_checks.c.i"
-	C:\PROGRA~2\MICROS~2\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\Hostx86\x86\cl.exe > CMakeFiles\prime_numbers.dir\user_checks.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\C\prime_numbers\user_checks.c
-<<
-
-CMakeFiles\prime_numbers.dir\user_checks.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/prime_numbers.dir/user_checks.c.s"
-	C:\PROGRA~2\MICROS~2\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\prime_numbers.dir\user_checks.c.s /c D:\C\prime_numbers\user_checks.c
-<<
-
 # Object files for target prime_numbers
 prime_numbers_OBJECTS = \
 "CMakeFiles\prime_numbers.dir\main.c.obj" \
-"CMakeFiles\prime_numbers.dir\primeNumbers.c.obj" \
-"CMakeFiles\prime_numbers.dir\user_checks.c.obj"
+"CMakeFiles\prime_numbers.dir\primeNumbers.c.obj"
 
 # External object files for target prime_numbers
 prime_numbers_EXTERNAL_OBJECTS =
 
 prime_numbers.exe: CMakeFiles\prime_numbers.dir\main.c.obj
 prime_numbers.exe: CMakeFiles\prime_numbers.dir\primeNumbers.c.obj
-prime_numbers.exe: CMakeFiles\prime_numbers.dir\user_checks.c.obj
 prime_numbers.exe: CMakeFiles\prime_numbers.dir\build.make
 prime_numbers.exe: CMakeFiles\prime_numbers.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\C\prime_numbers\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable prime_numbers.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\C\prime_numbers\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable prime_numbers.exe"
 	"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\prime_numbers.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\prime_numbers.dir\objects1.rsp @<<
  /out:prime_numbers.exe /implib:prime_numbers.lib /pdb:D:\C\prime_numbers\cmake-build-debug\prime_numbers.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

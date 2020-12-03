@@ -1,13 +1,38 @@
-//
-// Created by Pyrax on 12/3/2020.
-//
 #include <stdio.h>
-int isPrime(int num);
 
-int prime_numbers(int **lower, int **upper){
+int isPrime(int num);
+int prime_numbers(int **lower_var, int **upper_var);
+int negative__check(int n);
+
+void user_checks(int *lower, int *upper){
+    *lower = negative__check(*lower);
+    *upper = negative__check(*upper);
+    if(*upper == *lower){
+        printf("Both values are negative: %d & %d", *lower, *upper);
+    }
+    if(*lower > *upper){
+        int temp = *upper;
+        *upper = *lower;
+        *lower = temp;
+    }
+    prime_numbers(&lower, &upper);
+
+}
+
+
+int negative__check(int num){
+    if (num < 2 ){
+        return 2;
+    }else{
+        return num;
+    }
+}
+
+
+int prime_numbers(int **lower_var, int **upper_var){
 
         // check for prime numbers between a range
-        for (int i = **lower; i < **upper; i++){
+        for (int i = **lower_var; i < **upper_var; i++){
             if(isPrime(i) == 1){
                 printf("%d\n", i);
             }

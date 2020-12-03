@@ -5,5 +5,3 @@ CMakeFiles\prime_numbers.dir\main.c.obj: ..\main.c
 
 CMakeFiles\prime_numbers.dir\primeNumbers.c.obj: ..\primeNumbers.c
 
-CMakeFiles\prime_numbers.dir\user_checks.c.obj: ..\user_checks.c
-

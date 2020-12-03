@@ -181,33 +181,6 @@ primeNumbers.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\prime_numbers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\prime_numbers.dir\primeNumbers.c.s
 .PHONY : primeNumbers.c.s
 
-user_checks.obj: user_checks.c.obj
-
-.PHONY : user_checks.obj
-
-# target to build an object file
-user_checks.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prime_numbers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\prime_numbers.dir\user_checks.c.obj
-.PHONY : user_checks.c.obj
-
-user_checks.i: user_checks.c.i
-
-.PHONY : user_checks.i
-
-# target to preprocess a source file
-user_checks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prime_numbers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\prime_numbers.dir\user_checks.c.i
-.PHONY : user_checks.c.i
-
-user_checks.s: user_checks.c.s
-
-.PHONY : user_checks.s
-
-# target to generate assembly for a file
-user_checks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\prime_numbers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\prime_numbers.dir\user_checks.c.s
-.PHONY : user_checks.c.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -223,9 +196,6 @@ help:
 	@echo ... primeNumbers.obj
 	@echo ... primeNumbers.i
 	@echo ... primeNumbers.s
-	@echo ... user_checks.obj
-	@echo ... user_checks.i
-	@echo ... user_checks.s
 .PHONY : help
 
 

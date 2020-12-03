@@ -78,12 +78,12 @@ clean: CMakeFiles\prime_numbers.dir\clean
 CMakeFiles\prime_numbers.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\prime_numbers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\prime_numbers.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\prime_numbers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\prime_numbers.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\C\prime_numbers\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target prime_numbers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\C\prime_numbers\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target prime_numbers"
 .PHONY : CMakeFiles\prime_numbers.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\prime_numbers.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\C\prime_numbers\cmake-build-debug\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\C\prime_numbers\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\prime_numbers.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\C\prime_numbers\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\prime_numbers.dir\rule
